@@ -99,7 +99,7 @@ The version.xml should have the following contents:
 </package>
 ```
 
-## Using Ant to build your package
+## Using Ant to build your package (for release)
 To build the package, we will need to create a build.xml in your project directory e.g., `~/IdeaProjects/myBeastProject`. 
 
 We can use the `build.xml` file from BEASTLabs as a template for making the build file for our project.
@@ -112,6 +112,7 @@ cp ~/Repos/BEASTLabs/build.xml ~/IdeaProjects/myBeastProject/build.xml
 
 ...
 
+
 Go to your project directory
 ```
 cd ~/IdeaProjects/myBeastProject
@@ -120,6 +121,22 @@ Then compile the package using ant
 ```
 ant addon
 ```
+
+## Testing your package release
+See instructions here https://www.beast2.org/managing-packages/
+
+## Adding your package to BEAST package manager (CBAN)
+Your package needs to be added to [CBAN](https://github.com/CompEvol/CBAN) to be released to the public. 
+
+Packages that have not yet undergone peer-reviewed should go into CBAN's `packages-extra.xml`.
+
+Packages that have been peer-reviewed should go in the xml for the corresponding beast version, e.g., `packages2.6.xml`.
+
+## Running your package on a server
+There are two methods to run your package on the server: 
+* Installing beast2 and adding your package (via command line or manually), see https://www.beast2.org/managing-packages/
+* Creating an artifact jar (aka fat jar)
+...
 
 ## Useful resources:
 Model validation and general tips
