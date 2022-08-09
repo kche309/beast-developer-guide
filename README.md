@@ -99,7 +99,7 @@ The version.xml should have the following contents:
 </package>
 ```
 
-## Using Ant to build your package (for release)
+## Using Ant to build your package for release
 To build the package, we will need to create a build.xml in your project directory e.g., `~/IdeaProjects/myBeastProject`. 
 
 We can use the `build.xml` file from BEASTLabs as a template for making the build file for our project.
@@ -128,7 +128,7 @@ See instructions here https://www.beast2.org/managing-packages/
 ## Adding your package to BEAST package manager (CBAN)
 Your package needs to be added to [CBAN](https://github.com/CompEvol/CBAN) to be released to the public. 
 
-Packages that have not yet undergone peer-reviewed should go into CBAN's `packages-extra.xml`.
+Packages that have not yet undergone peer-review should go into CBAN's `packages-extra.xml`.
 
 Packages that have been peer-reviewed should go in the xml for the corresponding beast version, e.g., `packages2.6.xml`.
 
@@ -139,8 +139,14 @@ There are two methods to run your package on the server:
 ...
 
 ## Useful resources:
-Model validation and general tips
+* Model validation and general tips
 https://github.com/rbouckaert/DeveloperManual
 
-Beast package writing tutorial using Eclipse IDE
+* Beast package writing tutorial using Eclipse IDE
 http://www.beast2.org/writing-a-beast-2-package/
+
+* Installing and managing packages
+https://www.beast2.org/managing-packages/
+
+* Building a package from source
+https://www.beast2.org/2021/06/21/building-from-source.html
