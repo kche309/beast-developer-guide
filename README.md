@@ -6,6 +6,7 @@ This guide will go through how to set up BEAST v2.6.x development using IntelliJ
 * [IntelliJ IDE](https://www.jetbrains.com/idea/)
 * Java JDK 8 install (aka Java 1.8) 
 * [Apache Ant](https://ant.apache.org/manual/install.html) for building packages
+* BEAST2 install (e.g. [BEAST v2.6.7](https://github.com/CompEvol/beast2/releases/tag/v2.6.7))
 
 ## Cloning the code repositories
 Create a directory in your computer for your git repositories, e.g., from terminal execute
