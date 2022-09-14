@@ -300,11 +300,15 @@ Paste the following contents into your `myBeastProject/build.xml`
 </project>
 ```
 
-You may need to edit the beast2 path in your `build.xml` to the path to your beast2 directory. 
+Make sure your beast2 source code directory is in the same level as your project workspace. 
+(Move your beast2 directory from your cloned location e.g., `~/Repos/beast2` to `~/IdeaProjects/beast2`)
 
-For example:
+Workspace directory structure:
 ```
-<property name="beast2path" location="/Users/username/Repos/beast2" />
+|
+|-- myBeastProject
+|-- beast2
+
 ```
 
 Go to your beast2 directory and build beast2
