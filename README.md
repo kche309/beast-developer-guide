@@ -102,9 +102,9 @@ The version.xml should have the following contents:
 ```
 
 ## Implementing the F84 substitution model 
-Follow the steps in the guide http://www.beast2.org/writing-a-beast-2-package/ 
+Follow the steps for **Creating an F84 class** in http://www.beast2.org/writing-a-beast-2-package/
 
-See section "Creating an F84 class" for creating the substitution model:
+Sections:
 * Creating an F84 class
 * Adding the k parameter
 * Adding the initAndValidate method
@@ -112,8 +112,10 @@ See section "Creating an F84 class" for creating the substitution model:
 * Implementing the getTransitionProbabilities method
 * Adding a description and citation
 
+## Adding a beauti template
+Follow the steps for **Adding the F84 model to BEAUti** in http://www.beast2.org/writing-a-beast-2-package/ 
 
-See section "Adding the F84 model to BEAUti" for creating the beauti template: 
+Sections:
 * Create a template
 * Run BEAUti
 * Run the f84example.xml file
